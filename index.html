@@ -3,26 +3,38 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Brent Angelo F. Bautista | ePortfolio</title>
 
 <style>
+
 body{
 font-family: Arial, sans-serif;
 margin:0;
-background:#f5f6fa;
+background:#f4f6f8;
 color:#333;
+line-height:1.6;
 }
 
 header{
 background:#1e272e;
 color:white;
-padding:40px;
 text-align:center;
+padding:40px;
+}
+
+.profile img{
+width:160px;
+height:160px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid white;
+margin-top:15px;
 }
 
 nav{
 background:#485460;
-padding:10px;
+padding:12px;
 text-align:center;
 }
 
@@ -34,9 +46,9 @@ font-weight:bold;
 }
 
 section{
-padding:40px;
-max-width:900px;
+max-width:1000px;
 margin:auto;
+padding:40px;
 }
 
 h2{
@@ -46,10 +58,19 @@ padding-bottom:10px;
 
 .card{
 background:white;
-padding:20px;
+padding:25px;
 margin:20px 0;
 border-radius:8px;
-box-shadow:0 2px 6px rgba(0,0,0,0.1);
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.timeline{
+border-left:4px solid #1e272e;
+padding-left:20px;
+}
+
+.timeline-item{
+margin-bottom:20px;
 }
 
 footer{
@@ -58,108 +79,286 @@ padding:20px;
 background:#1e272e;
 color:white;
 }
+
 </style>
 </head>
 
 <body>
 
 <header>
+
 <h1>Brent Angelo F. Bautista</h1>
 <p>ePortfolio | Data Management and Statistical Analysis Using R</p>
-<p>Published: <span id="date"></span></p>
+
+<div class="profile">
+<img src="brent.jpg" alt="Brent Bautista">
+</div>
+
+<p>
+In this ePortfolio, I document my experiences, challenges, and reflections
+while taking the course <b>Data Management and Statistical Analysis Using R</b>
+during the Prelim period.
+</p>
+
+<p><b>Published:</b> <span id="date"></span></p>
+
 </header>
 
 <nav>
+
 <a href="#about">About</a>
 <a href="#objectives">Objectives</a>
+<a href="#journey">Learning Journey</a>
+<a href="#challenges">Challenges</a>
 <a href="#coursework">Coursework</a>
-<a href="#tools">Tools</a>
 <a href="#reflection">Reflection</a>
+<a href="#contact">Contact</a>
+
 </nav>
 
 <section id="about">
-<h2>About the Course</h2>
-<div class="card">
-<p>
-The course introduces students to the fundamentals of data management using the R programming language. 
-It focuses on data infrastructure, organization, and management technologies that support business intelligence 
-and enterprise decision-making.
 
-Students learn how to manage structured and unstructured datasets while maintaining accuracy, consistency, 
-and transparency in enterprise data systems. The course also introduces RStudio commands and functions used 
-for organizing, storing, and analyzing data in simulated business scenarios.
+<h2>About the Course</h2>
+
+<div class="card">
+
+<p>
+The course <b>Data Management and Statistical Analysis Using R</b>
+introduces students to the basic concepts of data management
+and how data can be analyzed using the R programming language.
+It focuses on how organizations organize and manage data
+so that it can support business intelligence and decision-making.
 </p>
+
+<p>
+Through this course, students are introduced to tools such as
+<b>R and RStudio</b>, which are used to explore datasets,
+perform statistical analysis, and interpret data.
+The lessons emphasize the importance of accurate,
+consistent, and meaningful data within enterprise systems.
+</p>
+
+<p>
+Although the subject can be challenging, especially for students
+who are not very familiar with programming, it provides an
+important foundation for understanding how data analysis works
+in real-world business environments.
+</p>
+
 </div>
+
 </section>
 
 <section id="objectives">
+
 <h2>Learning Objectives</h2>
+
 <div class="card">
+
 <ul>
+
 <li>Understand the fundamentals of data management</li>
-<li>Use the R programming language for statistical analysis</li>
-<li>Perform exploratory data analysis (EDA)</li>
-<li>Organize and manage datasets in enterprise contexts</li>
-<li>Use RStudio tools and commands effectively</li>
+<li>Become familiar with the R programming language</li>
+<li>Use RStudio for basic statistical analysis</li>
+<li>Explore datasets using exploratory data analysis</li>
+<li>Understand univariate and bivariate analysis</li>
+<li>Recognize the importance of data in business decision making</li>
+
 </ul>
+
 </div>
+
+</section>
+
+<section id="journey">
+
+<h2>My Learning Journey (Prelim Period)</h2>
+
+<div class="card timeline">
+
+<div class="timeline-item">
+<b>Week 1 – Introduction to Data Management</b>
+<p>
+During the first week, I learned about the importance of
+data management in organizations. I was introduced to
+how businesses rely on structured data systems to
+organize and store information.
+</p>
+</div>
+
+<div class="timeline-item">
+<b>Week 2 – Introduction to R and RStudio</b>
+<p>
+This was my first time working with the R programming
+language and the RStudio environment. At first,
+it was confusing to understand the commands
+and how the system works.
+</p>
+</div>
+
+<div class="timeline-item">
+<b>Week 3 – Exploratory Data Analysis</b>
+<p>
+I learned that before analyzing data deeply,
+analysts first explore the dataset to understand
+its structure and identify patterns.
+</p>
+</div>
+
+<div class="timeline-item">
+<b>Week 4 – Univariate Analysis</b>
+<p>
+This topic focused on analyzing a single variable
+in a dataset using statistical measures such as
+mean and median.
+</p>
+</div>
+
+<div class="timeline-item">
+<b>Week 5 – Bivariate Analysis</b>
+<p>
+I learned that two variables can be analyzed
+together to identify relationships or
+correlations between them.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="challenges">
+
+<h2>Challenges I Encountered</h2>
+
+<div class="card">
+
+<p>
+One of the main challenges I experienced in this subject
+was learning how to use the R programming language.
+Since it involves coding and statistical concepts,
+it was not always easy for me to follow every command
+or function used during the activities.
+</p>
+
+<p>
+Sometimes I needed more time to understand how certain
+operations work in RStudio. There were moments when I
+felt confused about the outputs or how the code
+affected the dataset.
+</p>
+
+<p>
+Even though the subject was challenging,
+I still tried to follow the lessons and
+complete the activities as much as possible.
+Through practice, I slowly started to
+become more familiar with the environment.
+</p>
+
+</div>
+
 </section>
 
 <section id="coursework">
-<h2>Coursework</h2>
+
+<h2>Coursework Activities</h2>
 
 <div class="card">
-<h3>Week 1 – Introduction to Data Management</h3>
-<p>Introduction to data management concepts and the role of data in enterprise systems.</p>
+
+<p>
+Throughout the prelim period, we worked on
+different exercises that introduced us to
+RStudio and statistical analysis.
+These activities involved exploring datasets,
+running commands, and observing the results
+generated by the system.
+</p>
+
+<p>
+Although I am still learning how to use
+the tools properly, the exercises helped me
+understand how analysts work with data and
+how information can be interpreted using
+statistical techniques.
+</p>
+
 </div>
 
-<div class="card">
-<h3>Week 2 – R Fundamentals and Statistical Foundations</h3>
-<p>Installation of R and RStudio and introduction to statistical functions in R.</p>
-</div>
-
-<div class="card">
-<h3>Week 3 – Exploratory Data Analysis (EDA)</h3>
-<p>Analyzing datasets, identifying patterns, and understanding distributions.</p>
-</div>
-
-<div class="card">
-<h3>Week 4 – Univariate Data Analysis</h3>
-<p>Analyzing individual variables using descriptive statistics.</p>
-</div>
-
-<div class="card">
-<h3>Week 5 – Bivariate Data Analysis</h3>
-<p>Understanding relationships between two variables using statistical methods.</p>
-</div>
-
-</section>
-
-<section id="tools">
-<h2>Tools and Technologies</h2>
-<div class="card">
-<ul>
-<li>R Programming Language</li>
-<li>RStudio</li>
-<li>Statistical Analysis Methods</li>
-<li>Data Visualization in R</li>
-</ul>
-</div>
 </section>
 
 <section id="reflection">
-<h2>Reflection</h2>
+
+<h2>Student Reflection</h2>
+
 <div class="card">
+
 <p>
-This course provided practical experience in managing and analyzing data using the R programming language. 
-Through different exercises and laboratory activities, students gained insights into how data can be 
-structured, processed, and interpreted to support decision-making in real-world business environments.
+During the prelim period of this course,
+I realized that data management and
+statistical analysis are not easy subjects,
+especially for students who are still
+learning how programming works.
 </p>
+
+<p>
+Personally, I found some parts of the
+course challenging, particularly when
+working with the R programming language.
+Understanding the commands and functions
+sometimes took more time for me,
+but I still tried to follow the lessons
+and practice whenever possible.
+</p>
+
+<p>
+Even though I struggled with some topics,
+I was still able to gain a basic idea
+of how data can be explored and analyzed.
+The course helped me understand that
+data plays an important role in helping
+organizations make decisions.
+</p>
+
+<p>
+I know that I still have many things
+to improve when it comes to statistical
+analysis and programming, but this
+course helped me become more aware of
+how data is handled in real-world
+business environments.
+</p>
+
+<p>
+Moving forward, I hope to continue
+improving my understanding of the
+tools and concepts introduced in this
+course so that I can apply them better
+in the future.
+</p>
+
 </div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Information</h2>
+
+<div class="card">
+
+<p><b>Student:</b> Brent Angelo F. Bautista</p>
+<p><b>Course:</b> Data Management and Statistical Analysis Using R</p>
+<p><b>Institution:</b> Jose Rizal University</p>
+
+</div>
+
 </section>
 
 <footer>
-<p>© 2026 Brent Angelo F. Bautista | Data Management and Statistical Analysis Using R</p>
+
+<p>© 2026 Brent Angelo F. Bautista | ePortfolio</p>
+
 </footer>
 
 <script>
